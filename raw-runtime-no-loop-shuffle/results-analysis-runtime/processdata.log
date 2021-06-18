@@ -1,0 +1,30 @@
+Converting recorded entropy data ../results-measurements/jent-raw-noise-0001.data into different bit output
+Processed 1000000 items from ./extractlsb samples with mask [0x000000000000000f] significant bits [4]
+Constant 0s in var sample: 
+00000000 00000000 00000000 00000000 00000000 0000---- -------- -------0 
+Constant 1s in var sample: 
+-------- -------- -------- -------- -------- -------- -------- -------- 
+Constant 0s in single sample: 
+00000000 00000000 00000000 00000000 00000000 000----- -------- -------0 
+Constant 1s in single sample: 
+-------- -------- -------- -------- -------- -------- -------- -------- 
+Processed 1000000 items from ./extractlsb samples with mask [0x00000000000000ff] significant bits [8]
+Constant 0s in var sample: 
+00000000 00000000 00000000 00000000 00000000 0000---- -------- -------0 
+Constant 1s in var sample: 
+-------- -------- -------- -------- -------- -------- -------- -------- 
+Constant 0s in single sample: 
+00000000 00000000 00000000 00000000 00000000 000----- -------- -------0 
+Constant 1s in single sample: 
+-------- -------- -------- -------- -------- -------- -------- -------- 
+
+Extraction finished. Now analyzing entropy for noise source ...
+
+Analyzing entropy for ../results-analysis-runtime/jent-raw-noise-0001.0Fbitout.single.data 4-bit single
+Analyzing entropy for ../results-analysis-runtime/jent-raw-noise-0001.0Fbitout.var.data 4-bit single
+Analyzing entropy for ../results-analysis-runtime/jent-raw-noise-0001.FFbitout.single.data 8-bit single
+Analyzing entropy for ../results-analysis-runtime/jent-raw-noise-0001.FFbitout.var.data 8-bit single
+
+Now analyzing entropy for conditioned data...
+
+Analyzing entropy for ../results-measurements/jent-conditioned.data 8-bit var
